@@ -16,28 +16,36 @@ private:
 	string ID, name;
 	int no_of_hours, rate_per_hour;
 public:
-	void setEmployee_ID(string a) {
+	void setEmployee_ID(string a) 
+	{
 		ID = a;
 	}
-	string getEmployee_ID() {
+	string getEmployee_ID() 
+	{
 		return ID;
 	}
-	void setEmployee_name(string b) {
+	void setEmployee_name(string b) 
+	{
 		name = b;
 	}
-	string getEmployee_name() {
+	string getEmployee_name() 
+	{
 		return name;
 	}
-	void setEmployee_No_of_hours_work(int c) {
+	void setEmployee_No_of_hours_work(int c) 
+	{
 		no_of_hours = c;
 	}
-	int getEmployee_No_of_hours_work() {
+	int getEmployee_No_of_hours_work() 
+	{
 		return no_of_hours;
 	}
-	void setrate_per_hour(int d) {
+	void setrate_per_hour(int d) 
+	{
 		rate_per_hour = d;
 	}
-	int get_rate_per_hour() {
+	int get_rate_per_hour() 
+	{
 		return rate_per_hour;
 	}
 	double getTotal_Monthly_Salary() 
