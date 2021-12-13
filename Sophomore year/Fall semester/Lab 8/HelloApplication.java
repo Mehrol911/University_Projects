@@ -35,10 +35,11 @@ public class HelloApplication extends Application {
         grid.setAlignment(Pos.CENTER);
         grid.setHgap(10);
         grid.setVgap(10);
+/***
         Text scenetitle = new Text("Welcome U2010046");
         scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20)); // here we give font size to the title
         grid.add(scenetitle, 0, 0, 2, 1); // this is the scene of the title
-
+***/
         Label userName = new Label("User Name:");
         grid.add(userName, 0, 1);
 
