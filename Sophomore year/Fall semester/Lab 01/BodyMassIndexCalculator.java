@@ -24,7 +24,7 @@ public class BodyMassIndexCalculator
                     "\n2=>Pounds and inches."+
                     "\n0=>Exit,");
             int option=1;
-            option=scanner.nextInt();
+            option=scanner.nextInt(); //giving integer value
             switch (option) // We are using switch in order to choose one of the cases
             {
                 case 0:
@@ -52,7 +52,10 @@ public class BodyMassIndexCalculator
                 default:
                     break;
             }
+            
         }
         System.out.println("HAVE A GOOD DAY!"); // If you choose the case 0 it will exit the program and this message will printed in console
     }
+    
+    
 }
